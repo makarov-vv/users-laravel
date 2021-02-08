@@ -21,6 +21,10 @@
         <input name="email" id="email" type="text" placeholder="Электронная почта">
         <input type="submit" name="add" value="Добавить"/>
     </form>
+    <a href="/">Назад</a>
+    <div>
+        {{$message}}
+    </div>
 </body>
 </html>
 

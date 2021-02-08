@@ -1,107 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users-laravel" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad06dc3-d764-4f29-8cdf-c6d2ef414bee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/proj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer-setup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/NewUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/uploads/CSVTest.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/uploads/users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/uploads/users2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/uploads/users4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/assets/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/assets/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/views/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/views/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/resources/views/import.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-laravel/webpack.mix.js" afterDir="false" />
+    <list default="true" id="bad06dc3-d764-4f29-8cdf-c6d2ef414bee" name="Default Changelist" comment="test laravel">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj-laravel/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj-laravel/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj-laravel/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj-laravel/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/proj-laravel/resources/views/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,15 +78,36 @@
       <updated>1612436151523</updated>
       <workItem from="1612436154676" duration="39325000" />
       <workItem from="1612786790564" duration="9751000" />
-      <workItem from="1612799570869" duration="261000" />
+      <workItem from="1612799570869" duration="616000" />
+      <workItem from="1612800423899" duration="353000" />
     </task>
+    <task id="LOCAL-00001" summary="test laravel">
+      <created>1612799872330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612799872330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="test laravel" />
+    <option name="LAST_COMMIT_MESSAGE" value="test laravel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="608" y="216" key="#CLI_Interpreters" timestamp="1612785002946">
@@ -191,6 +134,10 @@
       <screen x="0" y="0" width="1920" height="1039" />
     </state>
     <state x="689" y="216" key="SettingsEditor/0.0.1920.1039@0.0.1920.1039" timestamp="1612787697822" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1612799956486">
+      <screen x="0" y="0" width="1920" height="1039" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1039@0.0.1920.1039" timestamp="1612799956486" />
     <state x="1279" y="301" width="672" height="678" key="search.everywhere.popup" timestamp="1612445550226">
       <screen x="0" y="0" width="1920" height="1039" />
     </state>

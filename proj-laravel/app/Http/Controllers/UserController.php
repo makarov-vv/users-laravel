@@ -40,7 +40,7 @@ class UserController extends Controller
     }
 
     public function add(){
-        return view('add');
+        return view('add', ['message'=>session('message')]);
     }
 
     public function store(){
@@ -61,9 +61,14 @@ class UserController extends Controller
             $tempUser = NewUser::where('login', request('login'))->get();
             if(count($tempUser)==0) {
                 $user->save();
+                $message = 'Пользователь добавлен';
+                return redirect('/')->with('message', $message);;
+            }
+            else{
+                $message = 'Пользователь с таким логином уже существует';
+                return redirect('/add')->with('message', $message);
             }
         }
-        return redirect('/');
     }
 
     public function edit($id){

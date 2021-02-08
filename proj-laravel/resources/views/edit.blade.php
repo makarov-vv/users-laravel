@@ -22,6 +22,7 @@
     <input name="email" id="email" type="text" placeholder="Электронная почта" value="{{$user->Email}}">
     <input type="submit" name="add" value="Изменить"/>
 </form>
+<a href="/">Назад</a>
 <div>
     {{$message}}
 </div>
